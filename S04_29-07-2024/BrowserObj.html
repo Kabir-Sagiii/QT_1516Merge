@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script>
+      var obj1 = {
+        x: 10,
+
+        namedFn: function () {
+          console.log(this);
+        },
+
+        arrowfn: () => {
+          console.log(this);
+        },
+      };
+
+      obj1.namedFn();
+      obj1.arrowfn();
+    </script>
+  </head>
+  <body></body>
+</html>

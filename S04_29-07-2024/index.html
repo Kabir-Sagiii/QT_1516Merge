@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script>
+      var browserArrow = () => {
+        console.log(this);
+      };
+
+      browserArrow();
+      function fn() {
+        console.log(this); //Global : window
+      }
+      //   fn();
+    </script>
+  </head>
+  <body></body>
+</html>
