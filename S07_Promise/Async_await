@@ -1,0 +1,13 @@
+function createPromise() {
+  return new Promise(function (resolve, reject) {
+    reject("sagar");
+  });
+}
+
+async function fnName() {
+  var res = await createPromise();
+
+  console.log(res);
+}
+
+fnName();
