@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head> </head>
+  <body>
+    <h2>List in JS</h2>
+    <script>
+      function createList() {
+        var ol = document.createElement("ol");
+
+        var li1 = document.createElement("li");
+        var li2 = document.createElement("li");
+        var li3 = document.createElement("li");
+        var li4 = document.createElement("li");
+
+        li1.innerText = "List 1";
+        li2.innerText = "List 2";
+        li3.innerText = "List 3";
+        li4.innerText = "List 4";
+
+        ol.appendChild(li1);
+        ol.appendChild(li2);
+        ol.appendChild(li3);
+        ol.appendChild(li4);
+
+        document.querySelector("body").appendChild(ol);
+      }
+      createList();
+      createList();
+      createList();
+      createList();
+      createList();
+      createList();
+      createList();
+      createList();
+      createList();
+      createList();
+    </script>
+  </body>
+</html>
