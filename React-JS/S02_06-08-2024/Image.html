@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  </head>
+  <body>
+    <div id="qt"></div>
+    <script>
+      var ReactImageElement = React.createElement("img", {
+        src: "https://i.pinimg.com/originals/e3/7e/0e/e37e0e25686c2139b281a57a5b4906f2.jpg",
+        width: "500",
+        height: "400",
+      });
+      ReactDOM.render(ReactImageElement, document.getElementById("qt"));
+    </script>
+  </body>
+</html>
