@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      //h1 React Element
+      var h1ReactElement = React.createElement("h1", null, "React JS");
+      var pReactElement = React.createElement(
+        "p",
+        null,
+        "React JS is a JS Library"
+      );
+      var imgReactElement = React.createElement("img", {
+        src: "https://www.crushpixel.com/big-static7/preview4/portrait-young-professional-man-suit-258742.jpg",
+        width: "500",
+        height: "400",
+      });
+
+      ReactDOM.render(
+        [imgReactElement, h1ReactElement, pReactElement],
+        document.getElementById("root")
+      );
+    </script>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="text/babel">
+      var container = (
+        <div>
+          <h1> h1 inside div element</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat non
+            similique id molestias fugiat laborum labore consequatur! Officia
+            modi, suscipit labore, beatae iusto architecto perspiciatis veniam
+            excepturi totam eligendi obcaecati reiciendis, quisquam vitae
+            sapiente ad velit quas corporis neque saepe. Delectus nisi inventore
+            laboriosam deserunt mollitia cum accusamus. Eaque, nihil?
+          </p>
+        </div>
+      );
+
+      ReactDOM.render(container, document.getElementById("root"));
+    </script>
+  </body>
+</html>

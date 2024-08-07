@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="text/babel">
+      //   var h1 = React.createElement("h1", null, "Title");
+      //   var p = React.createElement("p", null, "Title");
+      var h1 = <h1>title</h1>;
+      var p = (
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque,
+          corporis!
+        </p>
+      );
+
+      ReactDOM.render([h1, p], document.querySelector("#root"));
+    </script>
+  </body>
+</html>

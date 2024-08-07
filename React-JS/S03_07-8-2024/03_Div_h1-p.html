@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      var pElement = React.createElement("p", null, "React is a JS Library");
+
+      var h1Element = React.createElement("h1", null, "React JS");
+
+      var divElement = React.createElement("div", null, [h1Element, pElement]);
+
+      ReactDOM.render(divElement, document.getElementById("root"));
+    </script>
+  </body>
+</html>
