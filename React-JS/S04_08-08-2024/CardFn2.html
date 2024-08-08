@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      .card {
+        width: 300px;
+        box-shadow: 0 0 10px black;
+        padding: 10px;
+        text-align: center;
+        margin: 30px auto;
+        background-color: black;
+        color: white;
+      }
+      .container {
+        display: flex;
+      }
+    </style>
+    <title>Document</title>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="text/babel">
+      function createCard() {
+        return (
+          <div className="card">
+            <img
+              src="https://i0.wp.com/www.torontophotographerz.com/wp-content/uploads/2017/06/Business-portrait-23.jpg?fit=800%2C1200&ssl=1"
+              width="300"
+              height="300"
+            />
+            <h3> Yash Verma </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            <button>Profile Details</button>
+          </div>
+        );
+      }
+
+      function main() {
+        return (
+          <div className="container">
+            {createCard()}
+            {createCard()}
+            {createCard()}
+          </div>
+        );
+      }
+
+      ReactDOM.render(main(), document.getElementById("root"));
+    </script>
+  </body>
+</html>
