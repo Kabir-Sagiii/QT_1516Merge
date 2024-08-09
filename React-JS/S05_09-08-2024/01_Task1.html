@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Document</title>
+    <style>
+      .container {
+        box-shadow: 0 0 10px black;
+        padding: 30px;
+        margin: 50px;
+        background-color: blanchedalmond;
+      }
+    </style>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="text/babel">
+      function CreateUI() {
+        return (
+          <div className="container">
+            <h1> Node JS </h1>
+          </div>
+        );
+      }
+
+      function App() {
+        return (
+          <div>
+            <CreateUI />
+
+            <CreateUI />
+
+            <CreateUI> </CreateUI>
+
+            <CreateUI> </CreateUI>
+          </div>
+        );
+      }
+
+      ReactDOM.render(<App />, document.getElementById("root"));
+    </script>
+  </body>
+</html>

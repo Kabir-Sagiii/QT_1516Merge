@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      body,
+      h2 {
+        margin: 0;
+      }
+      .header {
+        background-color: black;
+        color: white;
+        text-align: center;
+        height: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .main {
+        padding: 50px;
+      }
+      .footer {
+        background-color: lightslategrey;
+        height: 210px;
+        padding: 20px;
+        text-align: center;
+        color: white;
+        font-weight: bold;
+      }
+    </style>
+    <title>Document</title>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="text/babel">
+      function Header() {
+        return (
+          <div className="header">
+            <h2>Header Section </h2>
+          </div>
+        );
+      }
+
+      function Main() {
+        return (
+          <div className="main">
+            <h3> First Home Page</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+              nesciunt ut nam culpa, incidunt quas sequi obcaecati. Consequatur
+              rerum explicabo iste ducimus at iusto labore hic, perspiciatis
+              nobis voluptatem quasi, ut debitis officia eum. Eligendi
+              voluptatem eius repudiandae, quia autem officiis iure dignissimos
+              quae cum dolorem neque aliquid ab culpa numquam, atque natus
+              sapiente excepturi, eum sunt consequuntur nihil! Animi harum vel
+              ut enim praesentium voluptas sed nemo vero modi? Quas, deserunt
+              atque asperiores fugit dolor repudiandae. Consequatur modi velit
+              qui? Dicta reiciendis modi et laborum, amet commodi dolorum
+              inventore dolor nam natus molestiae, at, maiores quas eveniet?
+              Alias quam nostrum placeat voluptate animi! Nihil, eos natus. Esse
+              quibusdam corrupti placeat aut quaerat animi alias natus rem
+              porro. Rerum soluta amet possimus nisi repellat temporibus
+              incidunt vero nostrum laudantium id quidem architecto, sint eos
+              blanditiis! Distinctio ad ducimus sapiente hic sit, consequatur
+              quisquam ex voluptates eaque nemo velit. Impedit, maiores!
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum,
+              quaerat rerum nesciunt beatae eius eveniet nulla! Deleniti ratione
+              optio hic veritatis minima laudantium? Mollitia consequatur
+              voluptatum nihil, ipsam maxime nemo optio hic non, esse neque
+              laborum iste molestiae maiores! Sit, asperiores harum, corrupti
+              labore possimus ab, corporis molestias eum voluptatem obcaecati
+              sapiente! Id dolore molestiae molestias quo, fuga hic amet commodi
+              reprehenderit nisi aperiam ea. Enim sit voluptatem hic ratione
+              nihil ab explicabo, excepturi aperiam itaque doloribus mollitia
+              labore, quia fugit inventore! Neque corporis et enim, incidunt
+              quis quae rerum rem adipisci hic velit ipsam assumenda excepturi
+              sit nemo quos quisquam est. Animi soluta similique eligendi. Ut,
+              magni esse tempora dolor tempore ipsam repellendus sit error vel
+              amet quasi, dolores sunt officiis. Itaque neque vero non veniam ex
+              placeat suscipit cupiditate? Cumque alias temporibus sed,
+              quibusdam numquam dignissimos illo suscipit aliquid incidunt eius
+              hic illum quo enim fugiat magnam, nobis perspiciatis ea! Quibusdam
+              ad, dignissimos accusamus consequatur distinctio, qui facere
+              cumque ullam non eligendi earum minima eum, quae delectus dolor.
+              Error consequuntur dolores assumenda ipsa cum quae eaque sint
+              animi iste? At ducimus soluta voluptates expedita accusantium
+              dolore fugiat officia ratione consequatur commodi quis natus
+              architecto, nemo et dolor, voluptatum non. Facere veniam voluptate
+              repellendus totam vero voluptatum similique ipsa id, rerum
+              laudantium sapiente molestias quaerat quia deserunt ea aut quo
+              amet voluptatem corrupti sunt natus dolorum quisquam? Quasi
+              quaerat officia est aliquid quo ab, doloribus tenetur sed error,
+              officiis accusantium nobis. Corrupti hic praesentium suscipit ab
+              minima ex aspernatur repellat! Repellat, recusandae quae? Pariatur
+              obcaecati tempora deserunt? Id, mollitia reprehenderit? Cumque
+              atque quos inventore veritatis necessitatibus velit dolorum cum,
+              enim eum vitae molestias blanditiis ab voluptas voluptatibus
+              perferendis, omnis animi exercitationem suscipit sequi commodi
+              optio eveniet. Reprehenderit quia inventore ad tempore consectetur
+              alias tenetur, atque tempora ipsum nostrum hic!
+            </p>
+            <button>Explore More</button>
+          </div>
+        );
+      }
+
+      function Footer() {
+        return (
+          <div className="footer">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore
+            qui illum autem sed necessitatibus! Sint enim tempore pariatur
+            corrupti expedita laboriosam deserunt vel iusto, repellendus
+            necessitatibus dolor aliquam voluptates asperiores, officiis in modi
+            commodi, suscipit dolores mollitia dolorem eos! Sapiente magni
+            architecto asperiores, modi temporibus dolores? Dolor unde, sequi
+            labore sunt explicabo deserunt quidem commodi nesciunt accusamus
+            dolorum voluptatem quos nisi sed cumque expedita optio? Iure,
+            accusantium doloremque? Dolore dolores eveniet aliquid impedit
+            veritatis nisi facilis nobis quo aut commodi, ratione magnam
+            suscipit quos quibusdam itaque officiis similique odio aliquam.
+            Molestias necessitatibus dolore recusandae eius corporis maxime
+            similique cumque hic.
+          </div>
+        );
+      }
+
+      function App() {
+        return (
+          <div>
+            <Header />
+            <Main />
+            <Footer />
+          </div>
+        );
+      }
+
+      ReactDOM.render(<App />, document.getElementById("root"));
+    </script>
+  </body>
+</html>
