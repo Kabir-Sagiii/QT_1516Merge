@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      .container {
+        display: flex;
+      }
+      .card {
+        width: 300px;
+        box-shadow: 0 0 10px black;
+        padding: 10px;
+        text-align: center;
+        margin: 30px auto;
+        background-color: black;
+        color: white;
+      }
+    </style>
+    <title>Document</title>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+
+    <script type="text/babel">
+      function CreateCard(props) {
+        //props
+        //para = {name:"Yash Verma",image:"url" }
+        return (
+          <div className="card">
+            <img src={props.image} width="300" height="300" />
+            <h3> {props.name} </h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+            <button>Profile Details</button>
+          </div>
+        );
+      }
+
+      function App() {
+        return (
+          <div className="container">
+            <CreateCard
+              name="Amit Kumar"
+              image="https://c.pxhere.com/photos/08/7a/male_portrait_profile_social_media_cv_young_elegant_suit-459413.jpg!d"
+            />
+
+            <CreateCard
+              name="Sagar Mishra"
+              image="https://imageio.forbes.com/specials-images/imageserve/6594c9132787a107ce59a5f7/0x0.jpg?format=jpg&crop=2850,2138,x0,y334,safe&width=440"
+            />
+
+            <CreateCard
+              name="Krishna Tiwari"
+              image="https://www.compass.com/m/14/93306f6d-9787-4c15-b912-3fbe62c960d1/origin.jpg"
+            />
+          </div>
+        );
+      }
+
+      ReactDOM.render(<App />, document.getElementById("root"));
+    </script>
+  </body>
+</html>
