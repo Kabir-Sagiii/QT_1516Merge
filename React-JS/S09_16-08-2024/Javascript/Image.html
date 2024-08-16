@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <style>
+      .counter {
+        width: 300px;
+        padding: 50px;
+        margin: 50px auto;
+        text-align: center;
+        box-shadow: 0 0 10px black;
+      }
+    </style>
+    <script>
+      function fnIncCount() {
+        var h2DomElement = document.querySelector("h2");
+
+        h2DomElement.innerText = parseInt(h2DomElement.innerText) + 1;
+      }
+    </script>
+  </head>
+  <body>
+    <div>
+      <div class="counter">
+        <h2>0</h2>
+        <br />
+        <button onclick="fnIncCount()">IncCount</button>
+      </div>
+    </div>
+  </body>
+</html>
