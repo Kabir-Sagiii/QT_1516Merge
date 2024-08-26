@@ -1,0 +1,24 @@
+.profileContainer {
+  display: flex;
+  width: 800px;
+  height: 400px;
+  box-shadow: 0 0 10px black;
+  margin: 50px auto;
+}
+.left {
+  /* background-color: red; */
+  width: 40%;
+}
+.right {
+  width: 60%;
+  padding: 20px;
+}
+dt {
+  margin-top: 10px;
+}
+.genderContainer {
+  margin-top: 10px;
+  display: flex;
+  width: 170px;
+  justify-content: space-evenly;
+}
