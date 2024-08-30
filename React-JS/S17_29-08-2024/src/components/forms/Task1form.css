@@ -1,0 +1,11 @@
+.containerTask1Form {
+  margin: 50px auto;
+  box-shadow: 0 0 10px green;
+  width: 500px;
+  padding: 20px;
+}
+
+.containerTask1Form div {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
