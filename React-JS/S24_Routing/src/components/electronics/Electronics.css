@@ -1,0 +1,11 @@
+.electronicContainer {
+  padding: 50px;
+}
+.electronicContainer h2 {
+  color: green;
+  font-size: 37px;
+}
+.electronicContainer p {
+  margin: 20px 0px;
+  font-size: 19px;
+}
