@@ -1,0 +1,36 @@
+.Navbar {
+  height: 70px;
+  background-color: black;
+  display: flex;
+}
+.title {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.links {
+  width: 40%;
+  display: flex;
+
+  align-items: center;
+}
+.nextlinks {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.title h2 {
+  color: white;
+}
+.links a,
+.nextlinks a {
+  color: white;
+  text-decoration: none;
+  margin-right: 50px;
+}
+.nextlinks a {
+  margin-right: 20px;
+  font-size: 19px;
+}
