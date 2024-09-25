@@ -3,7 +3,7 @@ import Home from "./pages/Home";
 function App() {
   return (
     <div>
-      <Home />
+      <h2>React Element</h2>
     </div>
   );
 }
