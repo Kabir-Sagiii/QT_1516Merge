@@ -1,0 +1,39 @@
+.electronicContainer {
+  padding: 30px;
+}
+.electronicContainer h2 {
+  color: green;
+  font-size: 37px;
+}
+.electronicContainer p {
+  margin: 20px 0px;
+  font-size: 19px;
+}
+.electronicBgImages {
+  width: 1200px;
+  height: 300px;
+  background-color: lightcoral;
+  margin: 30px auto;
+  animation-name: changeBgImages;
+  animation-duration: 15s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes changeBgImages {
+  0% {
+    background-image: url("");
+  }
+  30% {
+    background-image: url("");
+  }
+  50% {
+    background-image: url("");
+  }
+  70% {
+    background-image: url("");
+  }
+  100% {
+    background-image: url("");
+  }
+}
